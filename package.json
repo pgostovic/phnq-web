@@ -47,7 +47,7 @@
     "@babel/polyfill": "^7.0.0",
     "autobind-decorator": "^2.2.1",
     "isomorphic-ws": "^4.0.1",
-    "phnq-lib": "^1.6.17",
+    "phnq-lib": "^1.6.20",
     "prop-types": "^15.6.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",

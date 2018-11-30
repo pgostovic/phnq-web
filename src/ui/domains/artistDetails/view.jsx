@@ -7,14 +7,14 @@ const View = ({ artist }) =>
       <div>{artist.name}</div>
       {artist.type === 'Person' && (
         <div>
-          {artist.beginDate && <div>Born {artist.beginDate}</div>}
-          {artist.endDate && <div>Died {artist.endDate}</div>}
+          {artist.beginDate && <div>Born {artist.beginDate.toString()}</div>}
+          {artist.endDate && <div>Died {artist.endDate.toString()}</div>}
         </div>
       )}
       {artist.type === 'Group' && (
         <div>
-          {artist.beginDate && <div>Formed {artist.beginDate}</div>}
-          {artist.endDate && <div>Disbanded {artist.endDate}</div>}
+          {artist.beginDate && <div>Formed {artist.beginDate.toString()}</div>}
+          {artist.endDate && <div>Disbanded {artist.endDate.toString()}</div>}
         </div>
       )}
       <br />
